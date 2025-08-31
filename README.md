@@ -23,6 +23,6 @@ ChatGPT → Summarization and text generation
 
 Candidate Details:
 
-Name: Mohammed Zaid Ejaj Pathan
+Name: Mohammed Zaid Ejaj Pathan,
 Degree: B.E in Artificial Intelligence & Data Science (Final year)
 College: MET Institute of Engineering, SPPU
