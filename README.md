@@ -2,23 +2,23 @@ Drone-News-AI-Agent
 
 This project demonstrates an AI workflow that automates the process of gathering the latest news, summarizing the content, and preparing social media posts. The workflow was built as part of the AI Agent Skill Assessment.
 
-Workflow Steps
+Workflow Steps:
 
-News Discovery
+News Discovery-
 
 News articles were fetched using NewsAPI with the keyword drone.
 
-Summarization
+Summarization-
 
 Each article was summarized into short insights.
 
 Trending hashtags were added for better reach and engagement.
 
-Social Media Post Generation
+Social Media Post Generation-
 
 Summarized content was formatted into a professional post suitable for platforms like LinkedIn or Twitter.
 
-Tools & Technologies
+Tools & Technologies-
 
 Taskade → Workflow design and visualization
 
@@ -30,6 +30,6 @@ Candidate Details
 
 Name: Mohammed Zaid Ejaj Pathan
 
-Degree: B.Tech in Artificial Intelligence & Data Science
+Degree: B.E in Artificial Intelligence & Data Science
 
-College: MET Institute of Engineering, SPPU
+College: MET Bhujbal Knowledge City, Institute of Engineering, Nashik
