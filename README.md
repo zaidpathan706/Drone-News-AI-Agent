@@ -1,25 +1,71 @@
-Drone-News-AI-Agent
+Drone News AI Agent
+Overview
+This project automates the discovery, summarization, and social media posting of drone industry news using AI and workflow automation tools. The agent fetches the latest articles, creates concise summaries with relevant hashtags, and posts formatted content to platforms like LinkedIn and Twitter, enabling real-time news sharing for drone professionals and stakeholders.
 
-This project demonstrates an AI workflow that automates the process of gathering the latest news, summarizing the content, and preparing social media posts. The workflow was built as part of the AI Agent Skill Assessment.
+Features
+Automated daily web search for latest drone news: “latest drone news”, “UAV technology”, “DGCA drones India”.
 
-Workflow Steps:
+Aggregates top articles with title, link, publication date, and featured image.
 
-News Discovery:
+Uses AI (ChatGPT API or Taskade Writer) for 2–3 paragraph summaries and extracts hashtags/trending keywords.
 
-News articles were fetched using NewsAPI with the keyword drone.
+Formats social-media-ready posts with hook lines, summary, hashtags, article links, and images.
 
-Summarization:
+Schedules and auto-posts to LinkedIn/Twitter via API integration or automation platform (n8n/Taskade AI).
 
-Each article was summarized into short insights.
-Trending hashtags were added for better reach and engagement.
-Social Media Post Generation
-Summarized content was formatted into a professional post suitable for platforms like LinkedIn or Twitter.
+Screenshots provided for workflow execution and sample output posts.
 
-Tools & Technologies:
+Tech Stack
+Workflow Automation: Taskade AI, n8n, Zapier, Make.com
 
-Taskade → Workflow design and visualization,
-NewsAPI → News data fetching,
-ChatGPT → Summarization and text generation
+AI Summarization: GPT-4, Taskade Writer, ChatGPT API
+
+Web Scraping & News Discovery: Google News RSS, News API, ScraperAPI
+
+Social Auto-Posting: LinkedIn API, Twitter API, Buffer
+
+How It Works
+News Discovery
+
+Agent runs daily at 9 AM IST.
+
+Searches for recent drone news using defined keywords.
+
+Collects top 3–5 articles with metadata.
+
+Summarization
+
+AI model summarizes each article, identifying hashtags and trending topics.
+
+Content Formatting
+
+Summaries and metadata are converted into social-ready posts:
+
+Hook line
+
+Short summary
+
+Hashtags
+
+Article link + CTA
+
+Image reference
+
+Social Auto-Posting
+
+Posts are scheduled or auto-published on LinkedIn and/or Twitter with relevant images.
+
+Workflow success is confirmed via screenshots.
+
+Screenshots
+See the screenshots folder for output samples:
+
+Automated post extraction
+
+AI summaries with hashtags
+
+Final social media post ready to publish
+
 
 Candidate Details:
 
