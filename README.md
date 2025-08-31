@@ -17,12 +17,12 @@ Summarized content was formatted into a professional post suitable for platforms
 
 Tools & Technologies:
 
-Taskade → Workflow design and visualization
-NewsAPI → News data fetching
+Taskade → Workflow design and visualization,
+NewsAPI → News data fetching,
 ChatGPT → Summarization and text generation
 
 Candidate Details:
 
 Name: Mohammed Zaid Ejaj Pathan,
-Degree: B.E in Artificial Intelligence & Data Science (Final year)
+Degree: B.E in Artificial Intelligence & Data Science (Final year),
 College: MET Institute of Engineering, SPPU
